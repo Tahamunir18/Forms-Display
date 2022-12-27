@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        #qrs {
+            color: rgb(102, 255, 0);
+        }
+
+        #abc {
+            color:green;
+        }
+        table,th,td{
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a id="qrs" href="../College Form/index.html">College Form</a></li>
+            <li><a href="../General Registration Form/index.html">General Registration Form</a></li>
+            <li><a href="../Hotel Booking  Form/index.html">Hotel Booking Form</a></li>
+            <li><a href="../Profile Making Form/index.html">Profile Making Form</a></li>
+        </ul>
+    </nav>
+    <form align="center">
+        <h3 align="center" style="font-size:30px; font-family:Verdana, Geneva, Tahoma, sans-serif;">Admission Form</h3>
+        
+            
+        <b id="abc">NAME:</b><input type="text" name="text" size="30" maxlength="30">
+        <br>
+        <br>
+        <b id="abc">FATHER`s NAME:</b><input type="text" name="text" size="20" maxlength="30">
+        <br>
+        <br>
+        <b id="abc">MOTHER`s NAME:</b><input type="text" name="text" size="19" maxlength="30">
+        <br>
+        <br>
+        <b id="abc">Date Of Birth:</b><input type="date" name="date">
+        <br><br>
+        <b id="abc">Gender:</b> <input type="radio" name="gender" value="male">Male<input type="radio" name="gender"
+            value="female">Female
+        <b id="abc">Martial Status:</b><input type="radio" name="status" value="married">Married <input type="radio"
+            name="status" value="single">single
+        <b id="abc">Religion:</b><select name="Religion">
+            <option value="Islam" checked>Islam</option>
+            <option value="Christian">Christian</option>
+            <option value="Hindu">Hindu</option>
+        </select>
+ 
+        <br>
+        <br>
+        <b id="abc">Present Address:</b><input type="address" name="address" size="40" maxlength="46">
+        <br>
+        <br>
+        <b id="abc">Permenant Address:</b><input type="address" name="address" size="40" maxlength="46">
+        <br><br>
+        <b id="abc">Applicant`s Phone no#</b><input type="tel" name="tel" size="10" maxlength="11">
+        <b id="abc">Emergency Phone no#</b><input type="tel" name="tel" size="10" maxlength="11">
+        <br><br>
+        <b id="abc">Applicant`s Email:</b><input type="email" name="email" maxlength="50">
+        <b id="abc">Applicant`s designation:</b><input type="text" name="text" maxlength="30">
+        <br><br>
+        <h3>Academic Record:</h3>
+        <table align="center">
+            <tr>
+                <th>Exam Passed</th>
+                <th>Name of the Institute</th>
+                <th>Passing Year</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="month" name="month" maxlength="8"></td>
+                <td><input type="text" name="text" maxlength="1"</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="month" name="month" maxlength="8"></td>
+                <td><input type="text" name="text" maxlength="1"</td>
+            </tr>
+            <tr>
+               <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="month" name="month" maxlength="8"></td>
+                <td><input type="text" name="text" maxlength="1"</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="text" name="text" maxlength="30"></td>
+                <td><input type="month" name="month" maxlength="8"></td>
+                <td><input type="text" name="text" maxlength="1"</td>
+            </tr>
+            
+        </table>
+        
+        <br>
+        <br>
+       <sup><b id="abc" style="font-size:30px;">CHOOSE COURSES:</b></sup><input type="radio" name="courses" value="">Graphic Design
+       <input type="radio" name="courses" value="">Motion Graphics
+       <input type="radio" name="courses" value="">2D & 3D Animation
+       <input type="radio" name="courses" value="">Python
+       <input type="radio" name="courses" value="">Video Editing<br>
+       <input type="radio" name="courses" value="">Digital Marketing
+       <input type="radio" name="courses" value="">Affiliate Marketing
+       <input type="radio" name="courses" value="">SQL
+       <br>
+       <br>
+       <b align="center" style="font-size:25px; color: red; font-family: algerian;">Declearation</b><br><b>I hereby,declearing that i will obey all the rules and regulations of the institutions and <br>fully responsible
+        for voilating the rules<sub>(back of the form)</sub></b>
+        <br>
+        <br>
+        <input type="image" src="../images/net.jpg" width="90" height="40">
+    </form> 
+</body>
+
+</html>
