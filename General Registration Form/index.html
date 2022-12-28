@@ -30,7 +30,9 @@
         li a:hover {
             background-color: #111;
         }
-        #qrs{color: rgb(102, 255, 0);
+
+        #qrs {
+            color: rgb(102, 255, 0);
         }
     </style>
 </head>
@@ -38,13 +40,39 @@
 <body>
     <nav>
         <ul>
-            <li><a  href="../index.html">Home</a></li>
+            <li><a href="../index.html">Home</a></li>
             <li><a href="../College Form/index.html">College Form</a></li>
             <li><a id="qrs" href="../General Registration Form/index.html">General Registration Form</a></li>
             <li><a href="../Hotel Booking  Form/index.html">Hotel Booking Form</a></li>
             <li><a href="../Profile Making Form/index.html">Profile Making Form</a></li>
         </ul>
     </nav>
+    <form>
+        <h3 align="center" style="font-size:30px; font-family:Verdana, Geneva, Tahoma, sans-serif;">General Registration
+            Form</h3>
+        <label for="first"><b>Name</b></label>
+        <input id="first" type="text" name="text" maxlength="10" placeholder="First Name">
+        <input id="first" type="text" name="text" maxlength="10" placeholder="Last Name">
+        <br><br>
+        <label for="email"><b>Email</b></label>
+        <input id="email" type="email" name="email" max="10" placeholder="sample@example.com">
+        <br>
+        <br>
+        <label for="gender"><b>Gender</b></label>
+        <input id="gender" type="radio" name="gender">Male
+        <input id="gender" type="radio" name="gender">Female
+        <br>
+        <br>
+        <label for="ph"><b>Phone#</b></label>
+        <input id="ph" type="tel" maxlength="11" name="phone">
+        <Br>
+        <br>
+        <label for="call"><b>Emergency Phone#</b></label>
+        <input id="call" type="tel" maxlength="11" name="phone">
+
+
+
+    </form>
 
 </body>
 
